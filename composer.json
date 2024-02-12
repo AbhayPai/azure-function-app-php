@@ -1,0 +1,20 @@
+{
+    "name": "gc/zipdealerservice",
+    "description": "Zip dealer service for gc application",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Gc\\Zipdealerservice\\": "HttpTrigger/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abhay Pai",
+            "email": "pai.abhay8@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "videlalvaro/azserverless": "*"
+    }
+}
